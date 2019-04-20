@@ -45,7 +45,7 @@ setup(
         'mujoco': ['gym[mujoco,robotics]'],
         'dev': ['pytest', 'ipython', 'jupyter'],
         'text': ['spacy'],
-        'all': ['visdom', 'pymongo', 'dnspython', 'gym[all]', 'pytest', 'spacy', 'ipython', 'jupyter']
+        'all': ['visdom', 'pymongo', 'dnspython', 'gym[all]', 'pytest', 'spacy', 'ipython', 'jupyter', 'pyyaml']
     },
     tests_require=[
         'pytest'
